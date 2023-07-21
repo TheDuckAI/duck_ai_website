@@ -4,7 +4,7 @@ const projectsData = [
     description: `Large Language Models (LLMs) have demonstrated remarkable performance on various quantitative reasoning and knowledge benchmarks, such as MMLU and MATH. 
     However, many of these benchmarks are losing utility as LLMs get increasingly high scores, despite not yet achieving expert level performance in these domains.
     We introduce \name{}, a novel benchmark composed of advanced reasoning problems designed to evaluate LLMs on text comprehension and expert domain reasoning. `,
-    imgSrc: '/static/images/ocean.jpeg',
+    imgSrc: '/static/projects/benchmark_logo_2.jpeg',
     href: 'https://www.google.com',
   },
   {

@@ -27,7 +27,7 @@ export default function Home({ posts }) {
             <Image alt="avatar" src="/static/images/avatar.png" width={256} height={256} />
           </div>
           <h1 className="flex flex-col items-center pt-10 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Duck AI
+            DuckAI
           </h1>
           <div>
             <p className="flex flex-col items-center text-lg leading-7 text-gray-500 dark:text-gray-400">

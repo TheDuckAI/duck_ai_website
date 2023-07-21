@@ -1,5 +1,5 @@
 ---
-name: Duck AI
+name: DuckAI
 avatar: /static/images/avatar.png
 occupation: Research Group
 # company: 
