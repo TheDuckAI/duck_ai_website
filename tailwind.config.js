@@ -4,6 +4,9 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
+    images: {
+      allowFutureImage: true,
+    },
   },
   content: [
     './pages/**/*.js',

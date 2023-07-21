@@ -2,48 +2,48 @@ const peopleData = [
   {
     name: 'Aran Komatsuzaki ',
     description: `Founder`,
-    imgSrc: '/../public/static/team/aran.jpeg',
+    imgSrc: '/static/team/aran.jpeg',
   },
   {
     name: 'Tom Sawada',
     description: `Project Lead`,
-    imgSrc: '/../public/static/team/tom.jpeg',
+    imgSrc: '/static/team/tom.jpeg',
   },
 
   {
     name: 'Kshitij Gupta',
     description: `TODO`,
-    imgSrc: '/../public/static/team/kshitij.jpeg',
+    imgSrc: '/static/team/kshitij.jpeg',
   },
   {
     name: 'Alex Havrilla',
     description: `TODO`,
-    imgSrc: '/../public/static/team/alexh.jpeg',
+    imgSrc: '/static/team/alexh.jpeg',
   },
   {
     name: 'Pranav Tadepalli',
     description: `TODo`,
-    imgSrc: '/../public/static/team/pranav.jpeg',
+    imgSrc: '/static/team/pranav.jpeg',
   },
   {
     name: 'Jeffrey Deng',
     description: `TODO`,
-    imgSrc: '/../public/static/team/jeff.jpeg',
+    imgSrc: '/static/team/jeff.jpeg',
   },
   {
     name: 'Chris Ha',
     description: `TODO`,
-    imgSrc: '/../public/static/team/chrish.jpeg',
+    imgSrc: '/static/team/chrish.jpeg',
   },
   {
     name: 'Enrico Shippole',
     description: `TODO`,
-    imgSrc: '/../public/static/team/enricos.jpeg',
+    imgSrc: '/static/team/enricos.jpeg',
   },
   {
     name: 'Shlomo Stept',
     description: `Transformers, OCR & Web Dev`,
-    imgSrc: '/../public/static/team/shlomo.jpeg',
+    imgSrc: '/static/team/shlomo.jpeg',
   },
 ]
 

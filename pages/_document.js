@@ -25,7 +25,7 @@ class MyDocument extends Document {
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </Head>
         {/* <link href="https://rsms.me/inter/inter.css" rel="stylesheet" /> */}
-        <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
+        <body className=" bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>

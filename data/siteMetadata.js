@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Duck AI',
-  author: 'Duck AI',
+  author: 'Shlomo Stept',
   headerTitle: 'Duck AI',
   description: 'Research Group Website & Blog',
   language: 'en-us',

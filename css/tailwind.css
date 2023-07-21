@@ -29,6 +29,24 @@
   @apply my-5;
 }
 
+.mb-auto{
+  @apply px-5
+}
+
+header {
+  @apply px-5
+}
+
+#__next{
+  @apply min-w-fit
+}
+/* .overflow-visible-image > span {
+  overflow: visible !important;
+} */
+.image-wrapper > span{
+  overflow: visible !important;
+}
+
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
