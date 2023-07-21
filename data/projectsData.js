@@ -15,19 +15,6 @@ const projectsData = [
     imgSrc: '',
     href: '',
   },
-
-  {
-    title: 'Advanced Reasoning Benchmark (ARB) Project',
-    description: `The Advanced Reasoning Benchmark (ARB) Project aims to develop advanced prompting methods and measure the performance of Large Language Models (LLMs) in solving academic problems. Our goal is to push the boundaries of what LLMs are capable of and improve their ability to reason and solve complex problems.`,
-    imgSrc: '',
-    href: '',
-  },
-  {
-    title: 'Multimodal Dataset Project',
-    description: `The Multimodal Dataset Project focuses on building a dataset for training multimodal agents. By combining data from multiple sources and modalities, we aim to create a rich and diverse dataset that can help improve the performance of multimodal systems.`,
-    imgSrc: '',
-    href: '',
-  },
   {
     title: 'Minerva-OCR Project',
     description: `The Minerva-OCR Project aims to develop an OCR model of quality comparable to proprietary OCR solutions. Our model can generate bounding boxes around any word that appears on an image and label them with the corresponding word, providing a powerful tool for extracting text from images.`,
@@ -49,6 +36,12 @@ const projectsData = [
   {
     title: 'Learning Machine Learning (aka #learning)',
     description: `The Learning Machine Learning project aims to bring people up to speed in state-of-the-art machine learning. We provide resources and support to help people learn about the latest developments in the field and apply their knowledge to real-world problems.`,
+    imgSrc: '',
+    href: '',
+  },
+  {
+    title: 'Advanced Reasoning Benchmark (ARB) Project',
+    description: `The Advanced Reasoning Benchmark (ARB) Project aims to develop advanced prompting methods and measure the performance of Large Language Models (LLMs) in solving academic problems. Our goal is to push the boundaries of what LLMs are capable of and improve their ability to reason and solve complex problems.`,
     imgSrc: '',
     href: '',
   },
