@@ -22,11 +22,11 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <div className="flex flex-col items-center pt-10">
+          <div className="flex flex-col items-center">
             {/* <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"></span> */}
             <Image alt="avatar" src="/static/images/avatar.png" width={256} height={256} />
           </div>
-          <h1 className="flex flex-col items-center pt-10 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="flex flex-col items-center  text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             DuckAI
           </h1>
           <div>
@@ -34,75 +34,48 @@ export default function Home({ posts }) {
               {siteMetadata.description}
             </p>
           </div>
+          <div>
+            <hr className="color-gray-100 my-4 h-0.5 border-t-2 opacity-100 dark:opacity-50" />
+
+            <div className="mb-8 items-start space-y-2 px-7">
+              <div className="font-size text-md mb-4 flex flex-col items-center ">
+                <div className="max-w-none pb-8 pt-8 dark:prose-dark xl:col-span-2">
+                  <p>
+                    DuckAI is an open and scalable academic lab and open-source community working on
+                    various Machine Learning projects. Our team consists of researchers from the
+                    Georgia Institute of Technology and beyond, driven by our passion for
+                    investigating large language models and multimodal systems.
+                  </p>
+                </div>
+
+                <div className=" mb-8 dark:prose-dark">
+                  <p>
+                    Our present endeavors concentrate on the development and analysis of a variety
+                    of dataset projects, with the aim of comprehending the depth and performance of
+                    these models across diverse domains.{' '}
+                  </p>
+                </div>
+
+                <div className="mb-8 dark:prose-dark">
+                  <p>
+                    Our objective is to welcome people with a variety of backgrounds to cutting-edge
+                    ML projects and rapidly scale up our community to make an impact on the ML
+                    landscape.{' '}
+                  </p>
+                </div>
+
+                <div className="mb-8 dark:prose-dark">
+                  <p>
+                    We are particularly devoted to open-sourcing datasets that can turn into an
+                    important infrastructure for the community and exploring various ways to improve
+                    the design of foundation models.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
-          {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
-            return (
-              <li key={slug} className="py-12">
-                <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                    </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
-                        <div>
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                            <Link
-                              href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
-                            >
-                              {title}
-                            </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                          {summary}
-                        </div>
-                      </div>
-                      <div className="text-base font-medium leading-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </li>
-            )
-          })}
-        </ul> */}
       </div>
-      {/* {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link
-            href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
-          >
-            All Posts &rarr;
-          </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
     </>
   )
 }

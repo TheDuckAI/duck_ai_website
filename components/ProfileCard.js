@@ -25,7 +25,7 @@ const ProfileCard = ({ name, imgSrc, github }) => {
         <div style={{overflow: 'visible' }}className="image-wrapper flex flex-col  overflow-visible relative p-3 m-3 min-w-180 min-h-180 ">
           <Image
             key={name}
-            className="rounded-full object-fit object-scale-down ring-4 ring-offset-1 ring-gray-300 p-4 overflow-visible" 
+            className="rounded-full object-fill ring-4 ring-offset-1 ring-gray-300 p-4 overflow-visible" 
             src={imgSrc}
             alt={name}
             width={140}

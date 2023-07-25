@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.6",
     "@fontsource/inter": "4.5.2",
     "@fontsource/poppins": "^5.0.5",
     "@fontsource/ubuntu": "^5.0.5",
