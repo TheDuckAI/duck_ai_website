@@ -1,31 +1,31 @@
 const projectsData = [
   {
     title: 'Benchmark ',
-    description: `We aim to develop a benchmark to measure the performance of Large Language Models (LLMs) in solving advanced academic problems, up to graduate-level. We also explore evaluation using GPT-4 by generating rubrics.`,
+    description: `A pioneering benchmark measuring the performance of Large Language Models (LLMs) in solving advanced academic problems, up to graduate-level. We also explore evaluation using GPT-4 by generating rubrics.`,
     imgSrc: '/static/projects/benchmark_logo_1.jpeg',
     href: 'https://arb.duckai.org/',
   },
   {
     title: 'Computer Activity Dataset',
-    description: `We aim to develop a dataset for training a multimodal computer agent that can do a variety of tasks from interacting with a web page to playing computer games. We collect video screenshots, audio, keyboard and touchpad inputs (and even eye tracking data) to better emulate how a human interacts with a computer.`,
+    description: `A dataset for training a multimodal computer agent that can do a variety of tasks from interacting with a web page to playing computer games. We collect video screenshots, audio, keyboard and touchpad inputs (and even eye tracking data) to better emulate how a human interacts with a computer.`,
     imgSrc: '',
     href: '',
   },
   {
     title: 'Minerva-OCR',
-    description: `We aim to develop an OCR model of quality comparable to proprietary OCR solutions with LaTeX support.`,
+    description: `An OCR model of quality comparable to proprietary OCR solutions with LaTeX support.`,
     imgSrc: '',
     href: '',
   },
   {
     title: 'Multilingual LLM',
-    description: `We aim to build higher-quality non-English datasets and tokenizers, and finetune non-English GPTs out of a pretrained English GPT. Our goal is to improve the performance of non-English language models and make them more accessible to a wider audience.`,
+    description: `Building higher-quality non-English datasets and tokenizers, and finetune non-English GPTs out of a pretrained English GPT. Our goal is to improve the performance of non-English language models and make them more accessible to a wider audience.`,
     imgSrc: '',
     href: '',
   },
   {
     title: 'Video Pretraining',
-    description: `We explore efficient video pretraining methods to improve the downstreaming performance of generalist agent.`,
+    description: `Exploring efficient video pretraining methods to improve the downstreaming performance of generalist agent.`,
     imgSrc: '',
     href: '',
   },
