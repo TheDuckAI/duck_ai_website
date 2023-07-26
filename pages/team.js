@@ -10,12 +10,12 @@ export default function Team() {
           <h3 className="text-center text-3xl  font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             The DuckAI Team
           </h3>
-          <p className=" text-center text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-center text-lg leading-7 text-gray-500 dark:text-gray-400">
             Updates coming soon ...
           </p>
         </div>
         <section className="bg-white dark:bg-gray-900">
-          <div className="mt-8 grid grid-cols-1 gap-10 md:grid-cols-2 xl:mt-16 xl:grid-cols-4">
+          <div className="mt-8 grid grid-cols-1 gap-10 md:grid-cols-3">
             {peopleData.map((p) => (
               <ProfileCard
                 key={p.name}
@@ -23,6 +23,7 @@ export default function Team() {
                 // description={p.description}
                 imgSrc={p.imgSrc}
                 github={p.github}
+                twitter={p.twitter}
               />
             ))}
           </div>
