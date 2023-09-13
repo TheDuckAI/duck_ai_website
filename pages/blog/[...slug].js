@@ -1,3 +1,5 @@
+//'use client'
+
 import fs from 'fs'
 import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
@@ -45,7 +47,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
 
   return (
     <>
-      {frontMatter.draft !== true ? (
+      {frontMatter.draft !== true && post ? (
         <MDXLayoutRenderer
           layout={frontMatter.layout || DEFAULT_LAYOUT}
           toc={toc}
