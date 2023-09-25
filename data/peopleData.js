@@ -13,7 +13,6 @@ const peopleData = [
     github: 'https://github.com/tomohiro-sawada',
     twitter: 'https://twitter.com/tsawada_ml',
   },
-
   {
     name: 'Kshitij Gupta',
     // description: `TODO`,
@@ -22,25 +21,10 @@ const peopleData = [
     twitter: 'https://twitter.com/kshitijkgupta',
   },
   {
-    name: 'Alex Havrilla',
-    // description: `TODO`,
-    imgSrc: '/static/team/alexh.jpeg',
-    github: 'https://github.com/Dahoas',
-    twitter: 'https://twitter.com/Dahoas1',
-  },
-  {
-    name: 'Pranav Tadepalli',
-    // description: `TODo`,
-    imgSrc: '/static/team/pranav.jpeg',
-    github: 'https://github.com/whackamadoodle3000',
-    twitter: 'https://twitter.com/PranavTadepalli',
-  },
-  {
-    name: 'Chris Ha',
-    // description: `TODO`,
-    imgSrc: '/static/team/chrish.jpeg',
-    github: 'https://github.com/chris-ha458',
-    twitter: '',
+    name: 'David Andrews',
+    imgSrc: '/static/team/david.png',
+    github: 'https://github.com/Broyojo',
+    twitter: 'https://twitter.com/broyojo42',
   },
   {
     name: 'Enrico Shippole',
@@ -57,11 +41,38 @@ const peopleData = [
     twitter: '',
   },
   {
+    name: 'Michael Hu',
+    imgSrc: '/static/team/michael.png',
+    github: 'https://github.com/mtanghu',
+    twitter: '',
+  },
+  {
+    name: 'Pranav Tadepalli',
+    // description: `TODo`,
+    imgSrc: '/static/team/pranav.jpeg',
+    github: 'https://github.com/whackamadoodle3000',
+    twitter: 'https://twitter.com/PranavTadepalli',
+  },
+  {
+    name: 'Chris Ha',
+    // description: `TODO`,
+    imgSrc: '/static/team/chrish.jpeg',
+    github: 'https://github.com/chris-ha458',
+    twitter: '',
+  },
+  {
     name: 'Jeffrey Deng',
     // description: `TODO`,
     imgSrc: '/static/team/jeff.jpeg',
     github: 'https://github.com/bat-kryptonyte',
     twitter: 'https://twitter.com/bat_kryptonyte',
+  },
+  {
+    name: 'Alex Havrilla',
+    // description: `TODO`,
+    imgSrc: '/static/team/alexh.jpeg',
+    github: 'https://github.com/Dahoas',
+    twitter: 'https://twitter.com/Dahoas1',
   },
 ]
 
